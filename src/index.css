@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --color-pastel-50: #f6f8f5;
+  --color-pastel-100: #eaf1e8;
+  --color-pastel-200: #d5e3d2;
+  --color-pastel-300: #b8cfb4;
+  --color-pastel-400: #93b58d;
+  --color-pastel-500: #6f9768;
+  --color-pastel-600: #54774e;
+  --color-pastel-700: #425e3e;
+  --color-pastel-800: #334830;
+  --color-pastel-900: #233121;
+}
+
+.font-serif-romantic {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-handwriting {
+  font-family: 'Sacramento', cursive;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle organic floating animation */
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1.5deg);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.animate-float-gentle {
+  animation: float-gentle 5s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.5s ease-in-out infinite;
+}
+
+/* Continuous smooth sliding marquee for truncated text */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-scroll {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee-scroll 10s linear infinite;
+}
+
+.animate-marquee-scroll:hover,
+.animate-marquee-scroll:active {
+  animation-play-state: paused;
+}
+

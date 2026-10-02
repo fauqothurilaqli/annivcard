@@ -1,0 +1,6 @@
+{
+  "name": "Menua Bersama - 1st Anniversary Kita",
+  "description": "Website perayaan 1 tahun perjalanan cinta bertema hijau pastel dengan linimasa 12 bulan, surat cinta romantis, dan lagu Anggis Devaki - Menua Bersama.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
