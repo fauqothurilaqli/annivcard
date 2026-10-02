@@ -58,9 +58,9 @@ export const INITIAL_MEMORIES: MonthMemory[] = [
     photoStories: [
       'Date pertama kita di Xiyuee, disini aku deg-degan banget asli, tapi berusaha cool makanya jantungku aman ehehehehe.',
       'ini chat minta peluk pertama kita dan sangattt gemesssss',
-      'Obrolan manis kita di WhatsApp yang selalu bikin kangen: "cepet ksnii yaa mww pelukk", "Dahh Baiii Gantengkuu".',
-      'Momen video call favorit saat kamu memberi acungan jempol dengan senyum manis dan kita berdua tertawa lepas.',
-      'Video call bertiga bareng si kucing oren kesayangan! Momen sederhana yang selalu sukses membuatku tersenyum lebar.',
+      'pidiocall cama hompol',
+      'Jempolnya pun cakepp babyy.',
+      'my kiyut babyy.',
     ],
     presetType: 'coffee',
     likesCount: 14,
