@@ -50,10 +50,10 @@ export const INITIAL_MEMORIES: MonthMemory[] = [
     ],
     photoTitles: [
       'Date pertama kita di Xiyuee',
-      'Rasa Ini Tiba-tiba Ada',
-      'Pesan Manis yang Bikin Salting',
-      'Tawa Lepas Saat Video Call',
-      'Video Call Bareng si Kucing Oren',
+      'Mo pelukk',
+      'Vc with hobii',
+      'jempol kak',
+      'my biutipul gril',
     ],
     photoStories: [
       'Date pertama kita di Xiyuee, disini aku deg-degan banget asli, tapi berusaha cool makanya jantungku aman ehehehehe.',
